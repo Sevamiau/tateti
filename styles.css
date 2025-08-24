@@ -1,0 +1,17 @@
+#btns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    width: 300px;
+    margin: auto auto;
+}
+
+button {
+    background-color: white;
+    border: none;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 80%);
+}
